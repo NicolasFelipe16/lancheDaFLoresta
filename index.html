@@ -1,139 +1,359 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="logo-02.png" type="image/x-icon" />
-    <title>Lanche da Floresta</title>
-  </head>
-  <body>
-    <header>
-      <img src="logo-01.png" alt="logo Lanche da Floresta" />
-      <ul>
-        <li class="active"><a href="">Principal</a></li>
-        <li class=""><a href="#salgados">salgados</a></li>
-        <li class=""><a href="#doces">doces</a></li>
-        <li class=""><a href="#bebidas">bebidas</a></li>
-      </ul>
-    </header>
-    <div class="banner">
-      <video autoplay loop muted>
-        <source src="videoBg.mp4" type="video/mp4" />
-      </video>
-      <div class="banner__content">
-        <img
-          class="banner__img"
-          src="logo-02.png"
-          alt="logo Lanche da Floresta"
-        />
-        <div class="banner__text">
-          <h2>Bem-vindo ao Lanche da Floresta!</h2>
-          <p>Aqui a diversão e o sabor se unem!</p>
-          <p>Nossa lanchonete é um paraíso para crianças e suas famílias, com uma variedade de opções deliciosas.<p>
-          </p>Venha nos visitar para uma experiência gastronômica única, repleta de diversão e sabores incríveis!</p>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="logo-02.png" type="image/x-icon" />
+  <title>Lanche da Floresta</title>
+</head>
+
+<body>
+  <a target="_blank" class="icone-whatsapp" href="https://wa.link/ottvcj">
+    <img src="whatsapp.png" alt="Icone WhatsApp">
+  </a>
+  <header class="cabecalho">
+    <img class="cabecalho__logo" src="logo-01.png" alt="logo Lanche da Floresta" />
+    <ul class="cabecalho__links">
+      <li class="links__item"><a href="#">principal</a></li>
+      <li class="links__item"><a href="#salgados">salgados</a></li>
+      <li class="links__item"><a href="#doces">doces</a></li>
+      <li class="links__item"><a href="#bebidas">bebidas</a></li>
+    </ul>
+  </header>
+  <div class="banner">
+    <video class="banner__video" autoplay loop muted>
+      <source src="videoBg.mp4" type="video/mp4" />
+    </video>
+    <div class="banner__conteudo">
+      <img class="banner__imagem" src="logo-02.png" alt="logo Lanche da Floresta" />
+      <div class="banner__texto">
+        <h2>Bem-vindo ao Lanche da Floresta!</h2>
+        <p>Aqui a diversão e o sabor se unem!</p>
+        <p>Nossa lanchonete é um paraíso para crianças e suas famílias, com uma variedade de opções deliciosas.
+        <p>
+        </p>Venha nos visitar para uma experiência gastronômica única, repleta de diversão e sabores incríveis!</p>
       </div>
     </div>
-    <main>
-      <section id="salgados">
-        <h2>SALGADOS</h2>
-        <ul class="section__products">
-          <li class="product">
-            <img src="logo-02.png" alt="" />
-            <div class="product__infos">
-              <h3 class="product__name">Sanduiche Safari</h3>
-              <h3 class="product__price">20,00</h3>
-              <button class="product__button">comprar</button>
-            </div>
-            <div class="product__description">
-              <h3>Descrição</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-                corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
-                minima? Rem. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Quo fuga iste sed distinctio assumenda! Ducimus possimus,
-                veniam praesentium iusto perferendis eius, aperiam officiis
-                inventore autem optio quis explicabo harum impedit quasi illum
-                expedita. Vero perspiciatis provident officiis odit ab dolor
-                optio animi. Amet dicta culpa eum tenetur explicabo voluptas
-                minus autem sed soluta ut adipisci error veritatis, cumque est
-                consequatur ducimus quo nisi aliquid quidem temporibus. Facere
-                deleniti eos vero, voluptatum dolores incidunt fugiat, sunt
-                reprehenderit ea distinctio in quia itaque suscipit harum vitae,
-                saepe quo sed? Iste sit officia similique dicta vel dignissimos
-                eligendi aliquam veritatis unde. Quia, quis!
-              </p>
-            </div>
-          </li>
-          <li class="product">
-            <img src="logo-02.png" alt="" />
-            <div class="product__infos">
-              <h3 class="product__name">Sanduiche Safari</h3>
-              <h3 class="product__price">20,00</h3>
-              <button class="product__button">comprar</button>
-            </div>
-            <div class="product__description">
-              <h3>Descrição</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-                corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
-                minima? Rem.
-              </p>
-            </div>
-          </li>
-          <li class="product">
-            <img src="logo-02.png" alt="" />
-            <div class="product__infos">
-              <h3 class="product__name">Sanduiche Safari</h3>
-              <h3 class="product__price">20,00</h3>
-              <button class="product__button">comprar</button>
-            </div>
-            <div class="product__description">
-              <h3>Descrição</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-                corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
-                minima? Rem.
-              </p>
-            </div>
-          </li>
-          <li class="product">
-            <img src="logo-02.png" alt="" />
-            <div class="product__infos">
-              <h3 class="product__name">Sanduiche Safari</h3>
-              <h3 class="product__price">20,00</h3>
-              <button class="product__button">comprar</button>
-            </div>
-            <div class="product__description">
-              <h3>Descrição</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-                corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
-                minima? Rem.
-              </p>
-            </div>
-          </li>
-          <li class="product">
-            <img src="logo-02.png" alt="" />
-            <div class="product__infos">
-              <h3 class="product__name">Sanduiche Safari</h3>
-              <h3 class="product__price">20,00</h3>
-              <button class="product__button">comprar</button>
-            </div>
-            <div class="product__description">
-              <h3>Descrição</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-                corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
-                minima? Rem.
-              </p>
-            </div>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer></footer>
-    <script src="script.js"></script>
-  </body>
+  </div>
+  <main class="principal">
+    <section class="principal__secao" id="salgados">
+      <h2 class="secao__titulo">SALGADOS</h2>
+      <ul class="secao__produtos">
+        <li class="produto">
+          <img class="produto__imagem" src="logo-02.png" alt="" />
+          <div class="produto__informacoes">
+            <h3 class="produto__nome">Salgado</h3>
+            <h3 class="produto__preco">00,00</h3>
+            <button class="produto__botao">comprar</button>
+          </div>
+          <div class="produto__descricao">
+            <h3>Descrição</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
+              minima? Rem.
+            </p>
+          </div>
+        </li>
+        <li class="produto">
+          <img class="produto__imagem" src="logo-02.png" alt="" />
+          <div class="produto__informacoes">
+            <h3 class="produto__nome">Salgado</h3>
+            <h3 class="produto__preco">00,00</h3>
+            <button class="produto__botao">comprar</button>
+          </div>
+          <div class="produto__descricao">
+            <h3>Descrição</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
+              minima? Rem.
+            </p>
+          </div>
+        </li>
+        <li class="produto">
+          <img class="produto__imagem" src="logo-02.png" alt="" />
+          <div class="produto__informacoes">
+            <h3 class="produto__nome">Salgado</h3>
+            <h3 class="produto__preco">00,00</h3>
+            <button class="produto__botao">comprar</button>
+          </div>
+          <div class="produto__descricao">
+            <h3>Descrição</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
+              minima? Rem.
+            </p>
+          </div>
+        </li>
+        <li class="produto">
+          <img class="produto__imagem" src="logo-02.png" alt="" />
+          <div class="produto__informacoes">
+            <h3 class="produto__nome">Salgado</h3>
+            <h3 class="produto__preco">00,00</h3>
+            <button class="produto__botao">comprar</button>
+          </div>
+          <div class="produto__descricao">
+            <h3>Descrição</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
+              minima? Rem.
+            </p>
+          </div>
+        </li>
+        <li class="produto">
+          <img class="produto__imagem" src="logo-02.png" alt="" />
+          <div class="produto__informacoes">
+            <h3 class="produto__nome">Salgado</h3>
+            <h3 class="produto__preco">00,00</h3>
+            <button class="produto__botao">comprar</button>
+          </div>
+          <div class="produto__descricao">
+            <h3>Descrição</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
+              minima? Rem.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="principal__secao" id="doces">
+      <h2 class="secao__titulo">Doces</h2>
+      <ul class="secao__produtos">
+        <li class="produto">
+          <img class="produto__imagem" src="logo-02.png" alt="" />
+          <div class="produto__informacoes">
+            <h3 class="produto__nome">Doce</h3>
+            <h3 class="produto__preco">00,00</h3>
+            <button class="produto__botao">comprar</button>
+          </div>
+          <div class="produto__descricao">
+            <h3>Descrição</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
+              minima? Rem.
+            </p>
+          </div>
+        </li>
+        <li class="produto">
+          <img class="produto__imagem" src="logo-02.png" alt="" />
+          <div class="produto__informacoes">
+            <h3 class="produto__nome">Doce</h3>
+            <h3 class="produto__preco">00,00</h3>
+            <button class="produto__botao">comprar</button>
+          </div>
+          <div class="produto__descricao">
+            <h3>Descrição</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
+              minima? Rem.
+            </p>
+          </div>
+        </li>
+        <li class="produto">
+          <img class="produto__imagem" src="logo-02.png" alt="" />
+          <div class="produto__informacoes">
+            <h3 class="produto__nome">Doce</h3>
+            <h3 class="produto__preco">00,00</h3>
+            <button class="produto__botao">comprar</button>
+          </div>
+          <div class="produto__descricao">
+            <h3>Descrição</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
+              minima? Rem.
+            </p>
+          </div>
+        </li>
+        <li class="produto">
+          <img class="produto__imagem" src="logo-02.png" alt="" />
+          <div class="produto__informacoes">
+            <h3 class="produto__nome">Doce</h3>
+            <h3 class="produto__preco">00,00</h3>
+            <button class="produto__botao">comprar</button>
+          </div>
+          <div class="produto__descricao">
+            <h3>Descrição</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
+              minima? Rem.
+            </p>
+          </div>
+        </li>
+        <li class="produto">
+          <img class="produto__imagem" src="logo-02.png" alt="" />
+          <div class="produto__informacoes">
+            <h3 class="produto__nome">Doce</h3>
+            <h3 class="produto__preco">00,00</h3>
+            <button class="produto__botao">comprar</button>
+          </div>
+          <div class="produto__descricao">
+            <h3>Descrição</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
+              minima? Rem.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="principal__secao" id="bebidas">
+      <h2 class="secao__titulo">Bebidas</h2>
+      <ul class="secao__produtos">
+        <li class="produto">
+          <img class="produto__imagem" src="logo-02.png" alt="" />
+          <div class="produto__informacoes">
+            <h3 class="produto__nome">Bebida</h3>
+            <h3 class="produto__preco">00,00</h3>
+            <button class="produto__botao">comprar</button>
+          </div>
+          <div class="produto__descricao">
+            <h3>Descrição</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
+              minima? Rem.
+            </p>
+          </div>
+        </li>
+        <li class="produto">
+          <img class="produto__imagem" src="logo-02.png" alt="" />
+          <div class="produto__informacoes">
+            <h3 class="produto__nome">Bebida</h3>
+            <h3 class="produto__preco">00,00</h3>
+            <button class="produto__botao">comprar</button>
+          </div>
+          <div class="produto__descricao">
+            <h3>Descrição</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
+              minima? Rem.
+            </p>
+          </div>
+        </li>
+        <li class="produto">
+          <img class="produto__imagem" src="logo-02.png" alt="" />
+          <div class="produto__informacoes">
+            <h3 class="produto__nome">Bebida</h3>
+            <h3 class="produto__preco">00,00</h3>
+            <button class="produto__botao">comprar</button>
+          </div>
+          <div class="produto__descricao">
+            <h3>Descrição</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
+              minima? Rem.
+            </p>
+          </div>
+        </li>
+        <li class="produto">
+          <img class="produto__imagem" src="logo-02.png" alt="" />
+          <div class="produto__informacoes">
+            <h3 class="produto__nome">Bebida</h3>
+            <h3 class="produto__preco">00,00</h3>
+            <button class="produto__botao">comprar</button>
+          </div>
+          <div class="produto__descricao">
+            <h3>Descrição</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
+              minima? Rem.
+            </p>
+          </div>
+        </li>
+        <li class="produto">
+          <img class="produto__imagem" src="logo-02.png" alt="" />
+          <div class="produto__informacoes">
+            <h3 class="produto__nome">Bebida</h3>
+            <h3 class="produto__preco">00,00</h3>
+            <button class="produto__botao">comprar</button>
+          </div>
+          <div class="produto__descricao">
+            <h3>Descrição</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              corrupti reiciendis unde. Incidunt sit maxime, sed impedit in
+              minima? Rem.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="area-delivery">
+      <h2 class="area-delivery__titulo">Peça já o seu lanche!</h2>
+      <div class="area-delivery__formulario">
+        <div class="formulario__textos">
+          <input class="formulario__endereco" type="text" placeholder="Endereço">
+          <input class="formulario__telefone" type="tel" placeholder="Telefone">
+        </div>
+        <div class="formulario__pagamento">
+          <p>forma de pagamento</p>
+          <div>
+            <input type="checkbox" id="debito">
+            <label for="debito">Débito</label>
+          </div>
+          <div>
+            <input type="checkbox" id="credito">
+            <label for="credito">Crédito</label>
+          </div>
+          <div>
+            <input type="checkbox" id="pix">
+            <label for="pix">PIX</label>
+          </div>
+          <div>
+            <input type="checkbox" id="dinheiro">
+            <label for="dinheiro">Dinheiro</label>
+          </div>
+        </div>
+        <button class="formulario__botao" onclick="alert('Pedido enviado!')">
+          Pedir
+        </button>
+      </div>
+    </section>
+  </main>
+  <footer class="rodape">
+    <div class="rodape__secao">
+      <h2 class="rodape__secao__titulo">Entre em contato!</h2>
+      <p class="rodape__secao__texto">(41) 9 1234-5678</p>
+      <p class="rodape__secao__texto">3344-5566</p>
+      <p class="rodape__secao__texto">lanchedafloresta@gmail.com</p>
+    </div>
+    <div class="rodape__secao">
+      <h2 class="rodape__secao__titulo">Nos encontre!</h2>
+      <p class="rodape__secao__texto">@lanche_da_floresta</p>
+      <p class="rodape__secao__texto">Lanche da floresta</p>
+      <p class="rodape__secao__texto">lanchedafloresta.vercel.app</p>
+    </div>
+    <div class="rodape__secao">
+      <h2 class="rodape__secao__titulo">Nícolas Felipe</h2>
+      <ul class="rodape__secao__links">
+        <li class="rodape__links__item"><a target="_blank" href=""><img src="instagram.png" alt=""></a></li>
+        <li class="rodape__links__item"><a target="_blank" href=""><img src="github.png" alt=""></a></li>
+      </ul>
+    </div>
+    <div class="rodape__secao">
+      <h2 class="rodape__secao__titulo">Priscila Aline</h2>
+      <ul class="rodape__secao__links">
+        <li class="rodape__links__item"><a target="_blank" href=""><img src="instagram.png" alt=""></a></li>
+        <li class="rodape__links__item"><a target="_blank" href=""><img src="github.png" alt=""></a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>
