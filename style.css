@@ -328,7 +328,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 25px;
+  padding: 25px 0;
 }
 
 .rodape__secao__titulo {
