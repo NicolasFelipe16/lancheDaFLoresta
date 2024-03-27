@@ -183,6 +183,7 @@ body {
   color: #fcd669;
   font-size: 22px;
   margin: 0;
+  text-transform: capitalize;
 }
 .produto__preco {
   color: #7bae6e;
